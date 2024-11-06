@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+    .feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+
+  </style>
+</head>
+
+<body background="./Screenshot 2024-11-05 163146.png" >
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand"  href="#"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="30" fill="currentColor" class="bi bi-box-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M15.528 2.973a.75.75 0 0 1 .472.696v8.662a.75.75 0 0 1-.472.696l-7.25 2.9a.75.75 0 0 1-.557 0l-7.25-2.9A.75.75 0 0 1 0 12.331V3.669a.75.75 0 0 1 .471-.696L7.443.184l.004-.001.274-.11a.75.75 0 0 1 .558 0l.274.11.004.001zm-1.374.527L8 5.962 1.846 3.5 1 3.839v.4l6.5 2.6v7.922l.5.2.5-.2V6.84l6.5-2.6v-.4l-.846-.339Z"/>
+      </svg>Move it </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">Regal Denim Mens Wear </h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Welcome to Regal Denim Men's Wear – Where Tradition Meets Style! Discover our curated collection of kurtas, bandis, sherwanis, and pagdis for men and kids. Crafted with quality and designed to add elegance to every occasion, our pieces bring heritage and fashion together. Browse, order online, and let us help you make your next celebration unforgettable</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">explore</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact us</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 270vh;">
+      <div class="container px-5">
+        <img src="./Screenshot 2024-11-05 171316.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="800" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Why Choose Us?</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
+            <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
+          </svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Premium Quality</h3>
+        <p>At Regal Denim Men's Wear, quality is our commitment. Each piece in our collection, from kurtas to sherwanis, is crafted with top-grade materials and keen attention to detail. We ensure durability and comfort without compromising on style, giving you clothing that stands out and lasts. Our dedication to premium quality means you receive only the best, every time.</p>
+        <a href="#" class="icon-link">
+          Call to action
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./bus-front.svg"/>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Fast Delivery</h3>
+        <p>We understand the importance of timely delivery. Regal Denim Men's Wear is committed to getting your chosen outfits to you swiftly and securely. Once you place an order, our team works efficiently to ensure that your products arrive on time, so you can enjoy a hassle-free shopping experience and be ready for every special event without delay.</p>
+        <a href="#" class="icon-link">
+          Call to action
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./chat-square-heart.svg"/>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Wide Range of Collection</h3>
+        <p>Explore our extensive range of stylish apparel tailored for men and kids alike. Whether you’re searching for traditional kurtas, elegant bandis, or classic pagdis, our collection offers something for every taste and occasion. With a variety of styles, colors, and sizes, Regal Denim Men's Wear has the perfect outfit for any celebration, blending heritage with modern aesthetics.</p>
+        <a href="#" class="icon-link">
+          Call to action
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./Screenshot 2024-11-05 171102.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./Screenshot 2024-11-05 171046.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./IMG_20230423_131716.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<footer class="py-3 my-4">
+  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><b>Home</b> </a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><b>Features</b></a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><b>Pricing</b></a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><b>FAQs</b></a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><b>About</b></a></li>
+  </ul>
+  <p class="text-center text-muted"><b>© 2022 Company, Inc</b></p>
+</footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
